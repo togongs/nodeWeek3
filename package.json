@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "prettify": "prettier --write *.js **/*.js"
+  },
+  "name": "node_spmall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "sequelize-cli": "^6.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
